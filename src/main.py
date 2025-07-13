@@ -34,7 +34,7 @@ import openai
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import jaccard_score
 #from langchain_ollama import ChatOllama
-from tavily import TavilyClient
+#from tavily import TavilyClient
 from fuzzywuzzy import fuzz
 #from image_deter import detect  # or however your model is imported
 
@@ -46,7 +46,7 @@ load_dotenv()  # This will load variables from .env into the environment
 
 # Now you can access your keys like this:
 openai_api_key = os.getenv("OPENAI_API_KEY")
-tavily_api_key = os.getenv("TAVILY_API_KEY")
+#tavily_api_key = os.getenv("TAVILY_API_KEY")
 
 logging.basicConfig(
     stream=sys.stdout,
