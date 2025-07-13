@@ -61,7 +61,6 @@ product_return_agent/
    - Create a `.env` file with your OpenAI and Tavily API keys:
      ```env
      OPENAI_API_KEY=your_openai_key
-     TAVILY_API_KEY=your_tavily_key
      ```
 5. **Place all data files in the `data/` directory**
    - Example: `data/meta_amazon_review_pets.csv`, `data/amazon_review_pets.csv`, etc.
